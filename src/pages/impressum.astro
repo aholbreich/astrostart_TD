@@ -1,0 +1,27 @@
+---
+import Sectionhead from "@components/elements/Sectionhead.astro";
+import Layout from "@layouts/Layout.astro";
+---
+
+<Layout title="Kontakt">
+  <section class="md:max-w-3xl max-w-screen-xl mx-auto px-5">
+    <Sectionhead>
+      <Fragment slot="title">Impressum</Fragment>
+      <Fragment slot="desc"> Your Company Name</Fragment>
+    </Sectionhead>
+
+    <h2 class="text-3xl mt-6 lg:text-3xl font-bold lg:tracking-tight">Informationen über den Diensteanbieter.</h2>
+    <div class="text-lg mt-6 mb-6 text-slate-900 max-w-xl">
+      <p>
+        <strong>Yea</strong>
+      </p>
+      <p>Max Mustermann</p>
+      <p>Some street, <br />012345 Berlin, <br />Germany</p>
+      <p>
+        <strong>Tel.:</strong> +49 10101010<br />
+        <strong>E-Mail:</strong>
+        <a href="mailto:kontakt@example.com">kontakt@example.com</a>
+      </p>
+    </div>
+  </section>
+</Layout>
