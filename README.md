@@ -1,30 +1,18 @@
 # Astro + TailwindCSS project stater
 
-This repository will have minimalistic project Starter. Astro 5 and Tailwind 4. It also includes Alien JS.
+A minimalistic Astro project starter. Using Astro 5, Tailwind 4. It also includes Apline JS.
 
 ## Usage
 
-Checkout and use as project.
+Bootstap new project using this template
 
 ```bash
-clone
-pnpm install
-pnpm dev
+pnpm create astro@latest --template aholbreich/astro_start_tailwind
 ```
 
+Alternative clone this repo and just start coding. The following commands should help
 
-## Includes
-
-* Astro 5.3
-* Astro Icon
-* Astro SEO
-* Astro MDX
-* Tailwindcss 4
-* Alpinejs
-* Netlify
-
-
-## Commands
+### Commands
 
 All commands are run from the root of the project, from a terminal:
 I'm in favor of `pnpm` but `npm` and yarn would work as well.
@@ -37,3 +25,21 @@ I'm in favor of `pnpm` but `npm` and yarn would work as well.
 | `pnpm preview`          | Preview your build locally, before deploying     |
 | `pnpm run astro ...`    | Run CLI commands like `astro add`, `astro check` |
 | `pnpm run astro --help` | Get help using the Astro CLI                     |
+
+if preview is not working, you can workaround whith:
+
+```
+pnpm build
+pnpm dlx serve dist
+```
+
+## Includes
+
+* Astro 5.3
+* Astro Icon
+* Astro SEO
+* Astro MDX
+* Tailwindcss 4
+* Alpinejs
+* Netlify
+
