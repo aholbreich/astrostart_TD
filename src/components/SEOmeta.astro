@@ -9,7 +9,6 @@ export interface Props {
 }
 
 const { title = "Change Me! ", description, image, canonical } = Astro.props;
-
 const canonicalURL = canonical ?? new URL(Astro.url.pathname, Astro.site).toString();
 const resolvedImage = image ?? new URL("/opengraph.jpg", Astro.site).toString();
 ---
