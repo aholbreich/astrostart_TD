@@ -1,0 +1,28 @@
+<div x-data="{ open: false }" class="floating-menu">
+  
+ <div x-data="{ items: [
+      { label: 'Phone', icon: '📞', link: 'tel:+49123456789' },
+      { label: 'Email', icon: '📧', link: 'mailto:email@example.com' },
+      { label: 'WhatsApp', icon: '💬', link: 'https://wa.me/49123456789' },
+      { label: 'Contact form', icon: '📋', link: '/contact' }
+    ]}">
+    
+    <template x-for="item in items">
+      <a
+        :href="item.link"
+        class="menu-item bg-primary-light p-3 rounded-full shadow-md flex items-center transition-all duration-300"
+        :class="{ 'show': open }">
+        <span class="text-lg" x-text="item.icon"></span>
+        <span class="ml-2 bg-white text-gray-800 px-2 py-1 rounded shadow-md" x-text="item.label"></span>
+      </a>
+    </template>
+  </div>
+
+  <!-- Open Close Button-->
+  <button
+    @click="open = !open"
+    class="w-14 h-14 bg-primary-light rounded-full flex items-center justify-center shadow-lg transition-transform"
+    :class="{ 'rotate-45': open }">
+    ✖
+  </button>
+</div>

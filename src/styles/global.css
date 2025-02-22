@@ -6,6 +6,26 @@
     }
 }
 
+@layer components {
+
+    /**
+    See FloatingMenu.astro. 
+    */
+    .floating-menu {
+        @apply fixed right-5 bottom-1 flex flex-col items-end space-y-3;
+    }
+
+    .menu-item {
+        @apply flex items-center space-x-2 opacity-0 transform scale-95 transition-all;
+    }
+
+    .menu-item.show {
+        @apply opacity-100 scale-100;
+    }
+}
+
+
+
 /* Custom theme vars live here */
 @theme {
     
