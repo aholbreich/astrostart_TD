@@ -3,7 +3,7 @@
 A minimalistic Astro project starter. Using Astro 5, Tailwind 4. It also includes Apline JS.
 
 The purpose is the demonstration of the integration of the [listed Dependencies](#Dependencies) eg. Tailwind 4. 
-Also, it includes a few example components. Like functional opinionated mobile-first navigation component or SEO component to be used in Layouts.
+Also, it includes a few example components. Like functional opinionated mobile-first navigation component and _floating menu_ and SEO component to be used in Layouts.
 
 
 [Live Demo](https://astro-start-tailwind.vercel.app/)
