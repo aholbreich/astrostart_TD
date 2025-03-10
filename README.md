@@ -47,6 +47,7 @@ pnpm dlx serve dist
 - Astro SEO
 - Astro MDX
 - Tailwindcss 4
+- DaisyUI 5
 - Alpine Js
 - Netlify
 
