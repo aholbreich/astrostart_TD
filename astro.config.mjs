@@ -5,13 +5,12 @@ import icon from "astro-icon";
 import tailwindcss from "@tailwindcss/vite";
 import netlify from "@astrojs/netlify";
 
-import alpinejs from "@astrojs/alpinejs";
 
 // https://astro.build/config
 export default defineConfig({
   site: "https://example.com",
   trailingSlash: "never",
-  integrations: [mdx(), sitemap(), icon(), alpinejs()],
+  integrations: [mdx(), sitemap(), icon()],
   adapter: netlify(),
   vite: {
     plugins: [tailwindcss()],

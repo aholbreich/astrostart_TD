@@ -11,13 +11,10 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/alpinejs": "^0.4.3",
     "@astrojs/mdx": "^4.1.0",
     "@astrojs/netlify": "^6.2.2",
     "@astrojs/sitemap": "^3.2.1",
     "@tailwindcss/vite": "^4.0.12",
-    "@types/alpinejs": "^3.13.11",
-    "alpinejs": "^3.14.8",
     "astro": "^5.4.2",
     "astro-icon": "^1.1.5",
     "astro-seo": "^0.8.4",
