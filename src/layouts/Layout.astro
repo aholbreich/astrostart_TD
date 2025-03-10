@@ -32,6 +32,8 @@ const { title = siteConfig.title, description, image } = Astro.props;
 </html>
 <body>
   <Navbar />
-  <slot />
+  <main>
+    <slot />
+  </main>
   <Footer />
 </body>

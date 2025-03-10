@@ -1,10 +1,17 @@
 ---
+import  {featureFlags}  from '@lib/config';
+
 ---
 
 <footer class="my-20">
   <p class="text-center text-sm text-slate-600">
-    <a class="hover:underline hover:text-primary-light" href="/impressum">Impressum</a>, 
-    <a class="hover:underline hover:text-primary-light" href="/dataprotection">Dataprotection</a>.
+    { featureFlags.enableImpressum && 
+      <a class="hover:underline hover:text-primary-light" href="/impressum">Impressum</a>
+    }
+    { featureFlags.enableDataprotection && 
+      <a class="hover:underline hover:text-primary-light" href="/dataprotection">Dataprotection</a>
+    }
+
     <span class="block sm:inline"> Copyright © {new Date().getFullYear()} My company.</span>
   </p>
   
