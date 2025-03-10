@@ -1,6 +1,8 @@
 ---
 import Navbar from "@components/nav/Navbar.astro";
 import Footer from "@components/Footer.astro";
+import { siteConfig } from "@lib/config";
+
 import "../styles/global.css";
 import SEOmeta from "@components/SEOmeta.astro";
 
@@ -10,7 +12,7 @@ export interface Props {
   image?: string;
 }
 
-const { title = "Your fancy titme", description, image } = Astro.props;
+const { title = siteConfig.title, description, image } = Astro.props;
 ---
 
 <!doctype html>
