@@ -2,8 +2,7 @@
   "name": "astro_start_tailwind",
   "homepage": "https://github.com/aholbreich/astro_start_tailwind",
   "type": "module",
-  "version": "0.1.0",
-  "private": true,
+  "version": "0.2.0",
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
@@ -23,5 +22,8 @@
     "astro-icon": "^1.1.5",
     "astro-seo": "^0.8.4",
     "tailwindcss": "^4.0.12"
+  },
+  "devDependencies": {
+    "daisyui": "^5.0.0"
   }
 }

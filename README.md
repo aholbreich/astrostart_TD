@@ -1,6 +1,6 @@
 # Astro + TailwindCSS project stater
 
-A minimalistic Astro project starter that's includes Astro 5, Tailwind 4. It also includes Apline JS.
+A minimalistic Astro project starter that's includes Astro 5, Tailwind 4 with DaisyIU. It also includes Apline JS.
 
 The purpose is the demonstration of the integration of the [listed Dependencies](#Dependencies) eg. Tailwind 4. 
 Also, it includes a few example components. Like functional opinionated mobile-first navigation component and _floating menu_ and SEO component to be used in Layouts.
