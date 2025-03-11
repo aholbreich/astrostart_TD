@@ -1,15 +1,30 @@
-# Astro + TailwindCSS project stater
+# Astro + TDA project stater
 
-A minimalistic Astro project starter that's includes Astro 5, Tailwind 4 with DaisyUI 5. No Java Script is preinstalled.
+* **T**ailwind
+* **D**aisyUI
+* **A**lpineJS
 
-See also:
-
-* Derived Starter but with Astro.js [astrostart_TDA](https://github.com/aholbreich/astrostart_TDA)
-* Derived Starter but with Vue.js [astro_start_daisyui_vue](https://github.com/aholbreich/astro_start_daisyui_vue)
-* 
+A minimalistic Astro project starter that's includes Astro 5, Tailwind 4 with DaisyUI 5. In terms of JavaScript this project include Apline JS.
 
 The purpose is the demonstration of the integration of the [listed Dependencies](#Dependencies) eg. Tailwind 4. 
 Also, it includes a few example components. Like functional opinionated mobile-first navigation component and _floating menu_ and SEO component to be used in Layouts.
+
+
+# Astro + Tailwind CSS 4 + Daisy UI 5 project stater
+
+* **T**ailwind
+* **D**aisyUI
+
+A minimalistic Astro project starter that includes Astro 5, Tailwind 4 with DaisyUI 5. No Java Script is preinstalled.
+
+For Preinstalled Java Scripts see:
+
+* A child starter + Alpine.js [astrostart_TDA](https://github.com/aholbreich/astrostart_TDA)
+* A child starter + Vue.js [astro_start_daisyui_vue](https://github.com/aholbreich/astro_start_daisyui_vue)
+
+
+The purpose is the demonstration of the integration of the [listed Dependencies](#Dependencies) 
+Also, it includes a few example components or project configuration.
 
 
 [Live Demo](https://astro-start-tailwind.vercel.app/)
@@ -19,7 +34,7 @@ Also, it includes a few example components. Like functional opinionated mobile-f
 Bootstrap your new project using this template with:
 
 ```bash
-pnpm create astro@latest --template aholbreich/astro_start_tailwind
+pnpm create astro@latest --template aholbreich/astrostart_TD
 ```
 
 Alternatively clone this repo and just start coding. The following commands should be helpful:
@@ -61,6 +76,15 @@ pnpm dlx serve dist
 Simple configuration can be found in `src/lib/config.ts`
 There are just a few demonstration components, you can delete them, ignore them, adapt them whatever fist you.
 
+### DaisyIU. 
+You can also ignore DaisyUI or carve it out by removing @plugin "daisyui"; from global.css and (optionally remove package)
+
 ## Collaboration
 
 Feel free to provide your feedback or feature requirements.
+
+### TODO
+
+* Add more DaisyUI components
+* Add some more sitempap example/doc
+* Add MDX demonstration
