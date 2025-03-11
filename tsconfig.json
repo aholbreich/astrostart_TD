@@ -11,6 +11,11 @@
       "@layouts/*": ["layouts/*"],
       "@assets/*": ["assets/*"],
       "@pages/*": ["pages/*"]
-    }
+    },
+    "plugins": [
+      {
+        "name": "@astrojs/ts-plugin"
+      }
+    ]
   }
 }

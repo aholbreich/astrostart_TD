@@ -76,6 +76,12 @@ pnpm dlx serve dist
 Simple configuration can be found in `src/lib/config.ts`
 There are just a few demonstration components, you can delete them, ignore them, adapt them whatever fist you.
 
+### TypeSctipt
+Everything in place. If you don't use VSCode Astro Plugin install @astrojs/ts-plugin to get full TS support. (Needed config already added)
+```bash
+pnpm add @astrojs/ts-plugin
+```
+
 ### DaisyIU. 
 You can also ignore DaisyUI or carve it out by removing @plugin "daisyui"; from global.css and (optionally remove package)
 
