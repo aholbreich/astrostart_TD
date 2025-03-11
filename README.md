@@ -51,11 +51,11 @@ pnpm dlx serve dist
 
 ## Dependencies
 
-- Astro 5.3
+- Astro 5.4
 - Astro Icon
 - Astro SEO
 - Astro MDX
-- Tailwindcss 4
+- Tailwind CSS 4
 - DaisyUI 5
 - Netlify
 
