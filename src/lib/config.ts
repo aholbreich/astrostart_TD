@@ -8,6 +8,6 @@ export const siteConfig = {
 // Feature flags examles
 export const featureFlags = {
   enableBetaFeatures: false,
-  enableImpressum: true,
+  enableImprint: true,
   enableDataprotection: false,
 };

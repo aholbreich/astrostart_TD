@@ -5,8 +5,8 @@ import  {featureFlags}  from '@lib/config';
 
 <footer class="my-20">
   <p class="text-center text-sm text-slate-600">
-    { featureFlags.enableImpressum && 
-      <a class="hover:underline hover:text-primary-light" href="/impressum">Impressum</a>
+    { featureFlags.enableImprint && 
+      <a class="hover:underline hover:text-primary-light" href="/imprint">Imprint</a>
     }
     { featureFlags.enableDataprotection && 
       <a class="hover:underline hover:text-primary-light" href="/dataprotection">Dataprotection</a>
